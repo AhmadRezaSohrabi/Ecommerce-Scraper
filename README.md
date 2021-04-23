@@ -1,9 +1,9 @@
-# Project Title
+# Woocommerce Scraper
 
-Woocommerce Scraper
 ## Description
 
-A woocommerce scraper for some specific ecommerce platforms.
+A scraper for some specific ecommerce platforms which updates the specifed woocommerce instance through woocommerce Rest API.
+Currently only the price and outofstock parameters are extracted.
 
 ### Installing
 
