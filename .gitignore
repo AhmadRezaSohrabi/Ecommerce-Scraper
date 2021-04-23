@@ -1,0 +1,15 @@
+.env/
+venv/
+env/
+
+*.csv
+*.json
+logs/
+
+.vs/
+
+__pycache__/
+
+local_config.py
+
+

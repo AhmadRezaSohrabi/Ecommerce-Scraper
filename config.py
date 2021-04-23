@@ -1,0 +1,4 @@
+URL = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+API_VERSION = "wc/v3"
