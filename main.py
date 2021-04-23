@@ -152,7 +152,6 @@ if __name__ == '__main__':
     generate_csv(final_info, 'Scraped Products data')
     generate_csv(not_updated_products, 'Inaccessible Products data')
     print('==> Updating the prices based on the scraped data ...')
-    exit('Done')
     for info in final_info:
         if info['out_of_stock'] == True:
             data = {
