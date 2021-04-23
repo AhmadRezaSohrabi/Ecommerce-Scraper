@@ -32,20 +32,20 @@ root_api = API(
 )
 
 if __name__ == '__main__':
-    # print('==> Fetching the products data ...', end=' ')
-    # products = get_products(root_api)
-    # print(f'Fetched --- Total = {len(products)}')
+    print('==> Fetching the products data ...', end=' ')
+    products = get_products(root_api)
+    print(f'Fetched --- Total = {len(products)}')
 
 
-    # print('==> Storing fetched data ...', end=' ')
-    # with open('products.json', 'w') as f:
-    #     json.dump(products, f)
+    print('==> Storing fetched data ...', end=' ')
+    with open('products.json', 'w') as f:
+        json.dump(products, f)
 
-    # print('[ Backup ready. Moving on to next phase ]')
+    print('[ Backup ready. Moving on to next phase ]')
 
-    print('==> Reading from fetched data ...', end=' ')
-    with open('products.json', 'r') as f:
-        products = json.load(f)
+    # print('==> Reading from fetched data ...', end=' ')
+    # with open('products.json', 'r') as f:
+    #     products = json.load(f)
 
     harvested_info = []
     print('==> Processing data ...')
